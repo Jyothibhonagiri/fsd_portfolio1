@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+            .nav-item{
+                font-size: 30px;
+                margin-left: 60px;
+            }
+            .navbar-brand{
+                color: greenyellow;
+                font-size: 50px;
+            }
+            .content{
+                display: flex;
+                justify-content:space-evenly;
+                width:100%;
+                background-color: black;
+            }
+            
+            
+            .parent{
+                display: flex;
+          
+            }
+            .demo4{
+              text-align: center;
+                margin-top: 20px;
+                font-size: 30px;
+            }
+            .child1{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-rows: auto auto;
+                margin-left: 20px;
+            }
+            .cards{
+                display: flex;
+            }
+            .card1{
+                height:300px;
+                width:300px;
+                margin-left: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+            .card2{
+                height:300px;
+                width:300px;
+                margin-left: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+            .card3{
+                height:300px;
+                width:300px;
+                margin-left: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+            section{
+                background-color: grey;
+                height: 100vh;
+                margin-top: 50px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="portfolio">portfolio </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Aboutus">Aboutus</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active"  href="#skills">skills</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active" href="#projects" >   projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-disabled="true">contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+            
+        
+            <section id="Aboutus">
+             <div class="parent">
+                <div>
+             <div style="font-size: 60px;">Hi </div>
+            <div style="font-size: 50px;">I AM JYOTHI,</div>
+            <div style="font-size: 50px;">A WEB DEVELOPER </div>
+             <img src="logo.jpg" width="30px" height="30px" />
+             <img src="download.png" width="30px" height="30px" margin-left="10px"/>
+             <img src="download (1).png" width="30px" height="30px" />
+             <img src="download (2).png" width="30px" height="30px" /><br><br>
+             <button style="background-color: blue; height:50px;width:90px;border-radius: 20px;">contact</button>
+             </div>
+        <img src="images.jpg" style="margin-left: 400px; margin-top: 20px; height:400px;width:400px;"/>
+             </div> 
+    </section>
+      <section id="skills">
+        <div class="parent2">
+            <h1 style="text-align: center;"><u>MY TECH STACK</u></h1>
+            <div class="child1">
+                <img src="js.png"/>
+                <img src="node js.png"/>
+                <img src="react js.jpg"/>
+                <img src="html.png" style="margin-top: 10px;"/>
+                <img src="css.png"/>
+                <img src="mangodb.jpg"/>
+            </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="parent3">
+            <h1 style="text-align: center;"> <u>PROJECTS</u></h1>
+            <div class="cards">
+                <div class="card1">
+                    <img src="servey.png"/>
+                    <div style="font-size: 30px;"><u>servey form</u></div>
+                </div>
+                <div class="card2">
+                    <img src="signup.png"/>
+                    <div style="font-size: 30px;"><u>signup form</u></div>
+                </div>
+                <div class="card3">
+                    <img src="feedback.png"/>
+                    <div style="font-size: 30px;"><u>feedback form</u></div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="demo4">
+        <div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address:</label>
+</div>
+<div class="form-floating">
+  <input type="number" class="form-control" id="floatingPassword" placeholder="number">
+  <label for="floatingPassword">contact number:</label>
+</div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        </body>
+</html>
